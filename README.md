@@ -13,6 +13,7 @@ JavaScript desde Venezuela.
 @[Alfons0Moreno](http://twitter.com/Alfons0Moreno) : Alfonso Moreno <br/>
 @[DxnxD](http://twitter.com/DxnxD): Dixon García. <br/>
 @[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng. <br/>
+@[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore. <br/>
 
 ### Metas:
 
