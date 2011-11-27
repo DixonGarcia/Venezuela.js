@@ -22,7 +22,7 @@ Se trata de una fórmula utilizada para validar una grán variedad de números d
     de dígitos es válida comparada con su número de verificación (ubicado a la final de la secuencia).
     Este número lo podremos obtener realizando los siguientes pasos:
 
-- Multiplcia por dos (dobla) todos los números de posición impar, partiendo desde el último número
+- Multiplcia por dos (dobla) todos los números de posición **impar**, partiendo desde el último número
     a la derecha.
 - Si alguno de los números doblados es mayor al máximo dígito de la base (base 10: 9), regrésalo a su
     valor original.
@@ -33,7 +33,7 @@ Se trata de una fórmula utilizada para validar una grán variedad de números d
 Ejemplo, para el número *7992739871*:
 
     [  7,  9,  9,  2,  7,  3,  9,  8,  7,  1 ]
-    [  7, 18,  9,  4,  7,  6,  9, 16,  7,  2 ] // Partiendo desde la derecha, multiplicamos por dos a los números de posición impar.
+    [  7, 18,  9,  4,  7,  6,  9, 16,  7,  2 ] // Doblamos a los números de posición impar desde la derecha.
     [  7,  9,  9,  4,  7,  6,  9,  8,  7,  2 ] // Regresamos solo los mayores a 9.
     [ 67 ] // Sumamos
     [ 603 ] // Multiplicamos por 9
@@ -43,7 +43,7 @@ Por consiguiente, el número que podrá ser verificado será: 7992739871**3**.
 
 Para verificar un número se deben realizar los siguientes pasos:
 
-- Multiplica por dos (dobla) todos los números de posición par, partiendo desde el último dígito a la derecha.
+- Multiplica por dos (dobla) todos los números de posición **par**, partiendo desde el último dígito a la derecha.
 - Si alguno de los números doblados es mayor al máximo dígito de la base (base 10: 9), regrésalo a su
     valor original.
 - Suma todos los números, si el resultado es divisible entre la base numérica establecida
@@ -52,7 +52,7 @@ Para verificar un número se deben realizar los siguientes pasos:
 Ejemplo, para el número *7992739871**3***:
 
     [  7,  9,  9,  2,  7,  3,  9,  8,  7,  1,  3 ]
-    [  7, 18,  9,  4,  7,  6,  9, 16,  7,  2,  3 ] // Partiendo desde la derecha, multiplicamos por dos a los números de posición impar.
+    [  7, 18,  9,  4,  7,  6,  9, 16,  7,  2,  3 ] // Doblamos a los números de posición par desde la derecha.
     [  7,  9,  9,  4,  7,  6,  9,  8,  7,  2,  3 ] // Regresamos solo los mayores a 9.
     [ 70 ] // Sumamos
     [ 0 ] // El módulo entre 10
