@@ -17,15 +17,15 @@ Algunos algoritmos son:
 
 ### 1. Algoritmo Luhn.
 
-    Se trata de una fórmula utilizada para validar una grán variedad de números de identificación
-        tales como números de tarjetas de crédito, cédulas, etc.
+Se trata de una fórmula utilizada para validar una grán variedad de números de identificación
+    tales como números de tarjetas de crédito, cédulas, etc.
 
-    Este algoritmo detectará cualquier error de un dígito, así como casi cualquier transposición
-        de dígitos adjacentes, sin embargo fallará si se encuentra con una de las siguientes
-        situaciones:
+Este algoritmo detectará cualquier error de un dígito, así como casi cualquier transposición
+    de dígitos adjacentes, sin embargo fallará si se encuentra con una de las siguientes
+    situaciones:
 
-    - Si se cambia el orden de dos dígitos del número a analizar. Ejemplo: 09 ↔ 90.
-    - Si se reemplazan alguna de las siguientes combinaciones: 22 ↔ 55, 33 ↔ 66, 44 ↔ 77.
+- Si se cambia el orden de dos dígitos del número a analizar. Ejemplo: 09 ↔ 90.
+- Si se reemplazan alguna de las siguientes combinaciones: 22 ↔ 55, 33 ↔ 66, 44 ↔ 77.
 
 ### Referencias:
 
