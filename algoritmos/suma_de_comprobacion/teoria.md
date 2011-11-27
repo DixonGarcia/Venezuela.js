@@ -32,12 +32,12 @@ Se trata de una fórmula utilizada para validar una grán variedad de números d
 
 Ejemplo, para el número *7992739871*:
 
-  [  7,  9,  9,  2,  7,  3,  9,  8,  7,  1 ]
-  [  7, 18,  9,  4,  7,  6,  9, 16,  7,  2 ] // Partiendo desde la derecha, multiplicamos por dos a los números de posición impar.
-  [  7,  9,  9,  4,  7,  6,  9,  8,  7,  2 ] // Regresamos solo los mayores a 9.
-  [ 67 ] // Sumamos
-  [ 603 ] // Multiplicamos por 9
-  [ 3 ] // El número de verificación.
+    [  7,  9,  9,  2,  7,  3,  9,  8,  7,  1 ]
+    [  7, 18,  9,  4,  7,  6,  9, 16,  7,  2 ] // Partiendo desde la derecha, multiplicamos por dos a los números de posición impar.
+    [  7,  9,  9,  4,  7,  6,  9,  8,  7,  2 ] // Regresamos solo los mayores a 9.
+    [ 67 ] // Sumamos
+    [ 603 ] // Multiplicamos por 9
+    [ 3 ] // El número de verificación.
 
 Por consiguiente, el número que podrá ser verificado será: 7992739871**3**.
 
@@ -51,12 +51,12 @@ Para verificar un número se deben realizar los siguientes pasos:
 
 Ejemplo, para el número *7992739871**3***:
 
-  [  7,  9,  9,  2,  7,  3,  9,  8,  7,  1,  3 ]
-  [  7, 18,  9,  4,  7,  6,  9, 16,  7,  2,  3 ] // Partiendo desde la derecha, multiplicamos por dos a los números de posición impar.
-  [  7,  9,  9,  4,  7,  6,  9,  8,  7,  2,  3 ] // Regresamos solo los mayores a 9.
-  [ 70 ] // Sumamos
-  [ 0 ] // El módulo entre 10
-  // El número es válido
+    [  7,  9,  9,  2,  7,  3,  9,  8,  7,  1,  3 ]
+    [  7, 18,  9,  4,  7,  6,  9, 16,  7,  2,  3 ] // Partiendo desde la derecha, multiplicamos por dos a los números de posición impar.
+    [  7,  9,  9,  4,  7,  6,  9,  8,  7,  2,  3 ] // Regresamos solo los mayores a 9.
+    [ 70 ] // Sumamos
+    [ 0 ] // El módulo entre 10
+    // El número es válido
 
 Este algoritmo detectará cualquier error de un dígito, así como casi cualquier transposición
     de dígitos adjacentes, sin embargo fallará si se encuentra con una de las siguientes
