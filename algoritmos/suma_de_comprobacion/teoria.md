@@ -58,6 +58,8 @@ Ejemplo, para el número *7992739871**3***:
     [ 0 ] // El módulo entre 10
     // El número es válido
 
+En este directorio podrán encontrar algunas implementaciones de este algoritmo hechas por nuestros colaboradores.
+
 Este algoritmo detectará cualquier error de un dígito, así como casi cualquier transposición
     de dígitos adjacentes, sin embargo fallará si se encuentra con una de las siguientes
     situaciones:
