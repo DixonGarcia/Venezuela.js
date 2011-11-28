@@ -19,14 +19,15 @@ Algunos algoritmos son:
 
 Se trata de una fórmula utilizada para validar una grán variedad de números de identificación
     tales como números de tarjetas de crédito, cédulas, etc. Se encarga de verificar si una secuencia
-    de dígitos es válida comparada con su número de verificación (ubicado a la final de la secuencia).
+    de dígitos de cualquier cantidad, pero base 10 (solo funciona con números de esta base), es válida
+    comparada con su número de verificación (ubicado a la final de la secuencia).
     Este número lo podremos obtener realizando los siguientes pasos:
 
 - Multiplcia por dos (dobla) todos los números de posición **impar**, partiendo desde el último número
     a la derecha.
-- Si alguno de los números doblados es mayor al máximo dígito de la base (base 10: 9), regrésalo a su
+- Si alguno de los números doblados es mayor **9**, regrésalo a su
     valor original.
-- Suma todos los números, luego multiplicalos por *9*.
+- Suma todos los números, luego multiplicalos por **9**.
 - El número de verificación será el último dígito
     del resultado de esa multiplicación.
 
@@ -44,10 +45,9 @@ Por consiguiente, el número que podrá ser verificado será: 7992739871**3**.
 Para verificar un número se deben realizar los siguientes pasos:
 
 - Multiplica por dos (dobla) todos los números de posición **par**, partiendo desde el último dígito a la derecha.
-- Si alguno de los números doblados es mayor al máximo dígito de la base (base 10: 9), regrésalo a su
+- Si alguno de los números doblados es mayor a **9**, regrésalo a su
     valor original.
-- Suma todos los números, si el resultado es divisible entre la base numérica establecida
-    (para base 10, módulo de 10: 0), entonces el número es válido.
+- Suma todos los números, si el resultado es divisible entre 10, entonces el número es válido.
 
 Ejemplo, para el número *7992739871**3***:
 
