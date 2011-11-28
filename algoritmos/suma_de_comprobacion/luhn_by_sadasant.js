@@ -19,6 +19,22 @@
 var luhn = {
 
   /**
+   * getSum()
+   *
+   * Parameters: account without checksum
+   * Returns: the sum
+   */
+  getSum: function (acc) {
+    if (!(acc)) return
+    acc = (acc + '0').split('').reverse()
+    return acc.reduce(function (p, c, i) {
+      c = c * 1
+      console.log(p,c,i)
+      return (p*1) + ((i%2) ? c < 5 ? c*2 : (c*2)-9 : c)
+    })
+  },
+
+  /**
    * getCheckNum()
    *
    * Parameters: account number, base
@@ -26,10 +42,7 @@ var luhn = {
    */
   getCheckNum: function (acc) {
     if (!(acc)) return
-    acc = (acc + '0').split('').reverse()
-    return ((acc.reduce(function (p, c, i) {
-      return (p*1) + ((i%2) ? c < 5 ? c*2 : c-9 : c)
-    }) * 9)+'').slice(-1)
+    return ((luhn.getSum(acc)* 9)+'').slice(-1)
   },
 
   /**
@@ -40,10 +53,8 @@ var luhn = {
    */
   check: function (acc) {
     if (!(acc)) return
-    acc = (acc + '0').split('').reverse()
-    return !(acc.reduce(function (p, c, i) {
-      return (p*1) + (!(i%2) ? c < 5 ? c*2 : c-9 : c)
-    }) % 10)
+    check = acc.slice(-1)*1
+    return !((luhn.getSum(acc.slice(0,-1)) + check) % 10)
   }
 
 }
@@ -51,7 +62,7 @@ var luhn = {
 
 function test (acc) {
   acc  = acc  || '7992739871'
-
+      
   document.write('')
 
   // add the check num
@@ -61,8 +72,8 @@ function test (acc) {
   document.writeln(check_num+' is the check num for '+acc+br+br)
   document.writeln('Checking ' + acc + check_num + br)
   document.writeln(luhn.check(acc + check_num)+br+br)
-
-  // check true
+      
+  // check false
   wrong_check_num = check_num*1 + 1
   document.writeln('Checking ' + acc + wrong_check_num + br)
   document.writeln(luhn.check(acc + wrong_check_num)+br+br)
@@ -73,4 +84,5 @@ function test (acc) {
   document.writeln(luhn.check(acc + wrong_check_num)+br+br)
 }
 
-//test('7992739871')
+test('7992739871')
+
