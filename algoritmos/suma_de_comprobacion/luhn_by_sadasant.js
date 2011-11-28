@@ -29,7 +29,6 @@ var luhn = {
     acc = (acc + '0').split('').reverse()
     return acc.reduce(function (p, c, i) {
       c = c * 1
-      console.log(p,c,i)
       return (p*1) + ((i%2) ? c < 5 ? c*2 : (c*2)-9 : c)
     })
   },
