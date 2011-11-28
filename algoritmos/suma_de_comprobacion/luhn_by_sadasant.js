@@ -28,7 +28,8 @@ var luhn = {
     if (!(acc)) return
     acc = (acc + '0').split('').reverse()
     return ((acc.reduce(function (p, c, i) {
-      return (p*1) + ((i%2 && c < 5) ? c*2 : c*1)
+      c *= 2
+      return (p*1) + ((i%2 && c < 10) ? c : c-9)
     }) * 9)+'').slice(-1)
   },
 
@@ -42,7 +43,8 @@ var luhn = {
     if (!(acc)) return
     acc = (acc + '0').split('').reverse()
     return !(acc.reduce(function (p, c, i) {
-      return (p*1) + ((!(i%2) && c < 5) ? c*2 : c*1)
+      c *= 2
+      return (p*1) + ((!(i%2) && c < 10) ? c : c-9)
     }) % 10)
   }
 
