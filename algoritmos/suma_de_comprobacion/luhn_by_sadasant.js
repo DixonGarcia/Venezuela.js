@@ -51,7 +51,7 @@ var luhn = {
 
 function test (acc) {
   acc  = acc  || '7992739871'
-      
+
   document.write('')
 
   // add the check num
@@ -73,4 +73,4 @@ function test (acc) {
   document.writeln(luhn.check(acc + wrong_check_num)+br+br)
 }
 
-test('7992739871')
+//test('7992739871')
