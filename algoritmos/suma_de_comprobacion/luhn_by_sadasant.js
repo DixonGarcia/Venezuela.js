@@ -26,10 +26,10 @@ var luhn = {
    */
   getSum: function (acc) {
     if (!(acc)) return
-    acc = (acc).split('').reverse()
+    acc = (acc+'0').split('').reverse()
     return acc.reduce(function (p, c, i) {
       c *= 1
-      return (p*1) + (!(i%2) ? c < 5 ? c*2 : (c*2)-9 : c)
+      return (p*1) + ((i%2) ? c < 5 ? c*2 : (c*2)-9 : c)
     })
   },
 
