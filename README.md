@@ -1,4 +1,3 @@
-
 # Venezuela.js
 
 JavaScript desde Venezuela.
@@ -14,7 +13,7 @@ JavaScript desde Venezuela.
 @[DxnxD](http://twitter.com/DxnxD): Dixon García. <br/>
 @[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng. <br/>
 @[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore. <br/>
-
+@[tristanoff](http://twitter.com/tristanoff): Daniel Aubourg <br/>
 ### Metas:
 
 1. Entender cada uno de los algoritmos de [este repositorio](https://github.com/nzakas/computer-science-in-javascript) (una semana por carpeta que contenga archivos .js).
