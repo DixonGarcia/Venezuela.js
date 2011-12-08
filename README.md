@@ -5,13 +5,12 @@ JavaScript desde Venezuela.
 ### Participantes:
 @[sadasant](http://twitter.com/sadasant): Daniel Rodríguez  <br/>
 @[tristanoff](http://twitter.com/tristanoff): Daniel Aubourg <br/>
-@[jobliz](http://twitter.com/sadasant): José Reyna  <br/>
 @[scarabvic](http://twitter.com/#!/scarabvic): Victor Mendoza <br/>
 @Krhil <br/>
 @VirginiaSeijas <br/>
 @[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore  <br/>
-@[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng
->>>>>>> sadasant/master
+@[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng <br/>
+@[jobliz](http://twitter.com/sadasant): José Reyna  <br/>
 
 ### Metas:
 
