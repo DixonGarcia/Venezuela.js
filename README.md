@@ -9,6 +9,7 @@ JavaScript desde Venezuela.
 @Krhil
 @VirginiaSeijas
 @[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore  <br/>
+@[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng
 
 ### Metas:
 
