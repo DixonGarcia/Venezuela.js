@@ -1,4 +1,3 @@
-
 # Venezuela.js
 
 JavaScript desde Venezuela.
@@ -6,6 +5,7 @@ JavaScript desde Venezuela.
 ### Participantes:
 
 @[sadasant](http://twitter.com/sadasant): Daniel Rodríguez  <br/>
+@[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore  <br/>
 
 ### Metas:
 
