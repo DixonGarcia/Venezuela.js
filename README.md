@@ -3,11 +3,11 @@
 JavaScript desde Venezuela.
 
 ### Participantes:
-@Krhil
-@VirginiaSeijas
 @[sadasant](http://twitter.com/sadasant): Daniel Rodríguez  <br/>
 @[tristanoff](http://twitter.com/tristanoff): Daniel Aubourg <br/>
 @[scarabvic](http://twitter.com/#!/scarabvic): Victor Mendoza <br/>
+@Krhil
+@VirginiaSeijas
 
 ### Metas:
 
