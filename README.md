@@ -6,8 +6,8 @@ JavaScript desde Venezuela.
 @[sadasant](http://twitter.com/sadasant): Daniel Rodríguez  <br/>
 @[tristanoff](http://twitter.com/tristanoff): Daniel Aubourg <br/>
 @[scarabvic](http://twitter.com/#!/scarabvic): Victor Mendoza <br/>
-@Krhil
-@VirginiaSeijas
+@Krhil <br/>
+@VirginiaSeijas <br/>
 @[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore  <br/>
 @[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng
 
