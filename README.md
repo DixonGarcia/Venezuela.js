@@ -1,10 +1,10 @@
-
 # Venezuela.js
 
 JavaScript desde Venezuela.
 
 ### Participantes:
-
+@Krhil
+@VirginiaSeijas
 @[sadasant](http://twitter.com/sadasant): Daniel Rodríguez  <br/>
 
 ### Metas:
