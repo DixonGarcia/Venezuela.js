@@ -6,6 +6,7 @@ JavaScript desde Venezuela.
 
 @[sadasant](http://twitter.com/sadasant): Daniel Rodríguez  <br/>
 @[tristanoff](http://twitter.com/tristanoff): Daniel Aubourg <br/>
+@[jobliz](http://twitter.com/sadasant): José Reyna <br/>
 
 ### Metas:
 
