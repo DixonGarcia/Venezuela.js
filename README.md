@@ -8,6 +8,7 @@ JavaScript desde Venezuela.
 @[scarabvic](http://twitter.com/#!/scarabvic): Victor Mendoza <br/>
 @Krhil
 @VirginiaSeijas
+@[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore  <br/>
 
 ### Metas:
 
