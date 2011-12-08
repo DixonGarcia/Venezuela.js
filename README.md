@@ -3,7 +3,8 @@
 JavaScript desde Venezuela.
 
 ### Participantes:
-
+@Krhil
+@VirginiaSeijas
 @[sadasant](http://twitter.com/sadasant): Daniel Rodríguez  <br/>
 @[tristanoff](http://twitter.com/tristanoff): Daniel Aubourg <br/>
 
