@@ -12,3 +12,4 @@ JavaScript desde Venezuela.
 @[krhil](http://twitter.com/krhil): Carhil Matos <br/>
 @[Alfons0Moreno](http://twitter.com/Alfons0Moreno) : Alfonso Moreno <br/>
 @[DxnxD](http://twitter.com/DxnxD): Dixon García. <br/>
+@[ajsb85](http://twitter.com/ajsb85): Alexander Salas. <br/>
