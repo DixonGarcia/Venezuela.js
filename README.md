@@ -12,6 +12,7 @@ JavaScript desde Venezuela.
 @[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng <br/>
 @[jobliz](http://twitter.com/sadasant): José Reyna  <br/>
 @[ajsb85](http://twitter.com/ajsb85): Alexander J. Salas B.  <br/>
+@[villanuevand](http://twitter.com/villanuevand) Andrés Villanueva. </br>
 
 ### Metas:
 
