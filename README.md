@@ -11,6 +11,7 @@ JavaScript desde Venezuela.
 @[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore  <br/>
 @[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng <br/>
 @[jobliz](http://twitter.com/sadasant): José Reyna  <br/>
+@[ajsb85](http://twitter.com/ajsb85): Alexander J. Salas B.  <br/>
 
 ### Metas:
 
