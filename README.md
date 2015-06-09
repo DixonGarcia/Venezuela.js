@@ -3,16 +3,17 @@
 JavaScript desde Venezuela.
 
 ### Participantes:
-@[sadasant](http://twitter.com/sadasant): Daniel Rodríguez  <br/>
-@[tristanoff](http://twitter.com/tristanoff): Daniel Aubourg <br/>
-@[scarabvic](http://twitter.com/#!/scarabvic): Victor Mendoza <br/>
-@Krhil <br/>
-@VirginiaSeijas <br/>
-@[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore  <br/>
-@[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng <br/>
-@[jobliz](http://twitter.com/sadasant): José Reyna  <br/>
-@[ajsb85](http://twitter.com/ajsb85): Alexander J. Salas B.  <br/>
-@[villanuevand](http://twitter.com/villanuevand) Andrés Villanueva. </br>
+* @[sadasant](http://twitter.com/sadasant): Daniel Rodríguez
+* @[tristanoff](http://twitter.com/tristanoff): Daniel Aubourg
+* @[scarabvic](http://twitter.com/#!/scarabvic): Victor Mendoza
+* @Krhil
+* @VirginiaSeijas
+* @[robdiminished](http://twitter.com/robdiminished): Roberto Tatasciore
+* @[alexstefan92](http://twitter.com/alexstefan92): Stefan Alexander Meng
+* @[jobliz](http://twitter.com/sadasant): José Reyna
+* @[ajsb85](http://twitter.com/ajsb85): Alexander J. Salas B.
+* @[villanuevand](http://twitter.com/villanuevand) Andrés Villanueva.
+* @[abr4xas](http://twitter.com/abr4xas).
 
 ### Metas:
 
